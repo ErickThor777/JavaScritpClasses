@@ -1,7 +1,7 @@
 module.exports = class Curso {
   profesores;
   alumnos;
-  nonbre;
+  nombre;
   constructor(nombre) {
     this.nombre = nombre;
   }
