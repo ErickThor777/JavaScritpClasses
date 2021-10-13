@@ -23,4 +23,12 @@ const productos = [
   }
 ];
 
+let total = 0;
+productos.forEach(producto => total = total + producto.precio);
+
 console.log(productos);
+console.log(total);
+
+const precioTotal = productos.reduce((prev, next) => prev + next.precio, 0);
+
+console.log(precioTotal);
