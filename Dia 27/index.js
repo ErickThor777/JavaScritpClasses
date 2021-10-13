@@ -32,3 +32,5 @@ console.log(total);
 const precioTotal = productos.reduce((prev, next) => prev + next.precio, 0);
 
 console.log(precioTotal);
+
+// obtener nuevo arrary que contengan precios bajos menor a 10;
