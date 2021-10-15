@@ -20,6 +20,14 @@ const productos = [
   {
     name: 'Caramelo',
     precio: 1
+  },
+  {
+    name: 'soda',
+    precio: 34
+  },
+  {
+    name: 'revista',
+    precio: 29
   }
 ];
 
@@ -38,3 +46,4 @@ const nuevoArray = productos.filter(producto => producto.precio < 10);
 
 console.log(nuevoArray);
 
+// encontrar revista en el arreglo de productos.
