@@ -47,3 +47,5 @@ const nuevoArray = productos.filter(producto => producto.precio < 10);
 console.log(nuevoArray);
 
 // encontrar revista en el arreglo de productos.
+const producto = productos.find(producto => producto.name === 'revista');
+console.log(producto);
