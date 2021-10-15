@@ -48,4 +48,7 @@ console.log(nuevoArray);
 
 // encontrar revista en el arreglo de productos.
 const producto = productos.find(producto => producto.name === 'revista');
-console.log(producto);
+console.log('producto encontrado:', producto);
+
+
+// Encontra el index del producto libro en el arreglo productos.
