@@ -51,13 +51,19 @@ const producto = productos.find(producto => producto.name === 'revista');
 console.log('producto encontrado:', producto);
 
 
+
+// agregar un nuevo producto llamado libro en una sola linea.
+const producto = { name: 'libro', precio: 32 };
+productos.push(producto);
+
 // Encontra el index del producto libro en el arreglo productos.
 const index = productos.findIndex(producto => producto.name === 'libro');
 console.log(index);
-// agregar un nuevo producto llamado libro en una sola linea.
 
+console.log(productos);
 if (index < 0) {
   console.log('No encontrado')
 } else {
   console.log(`El producto esta en la posicion ${index}`);
 }
+
