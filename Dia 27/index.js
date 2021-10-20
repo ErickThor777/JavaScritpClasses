@@ -1,4 +1,4 @@
-let precios = [23, 235, 454, 4545, 4545];
+/* let precios = [23, 235, 454, 4545, 4545];
 
 console.log(precios[2]);
 
@@ -8,27 +8,26 @@ console.log(precios);
 precios.forEach((precio, index) => precios[index] = precio * 2);
 console.log(precios);
 
-const productos = [
-  {
-    name: 'leche',
-    precio: 23
-  },
-  {
-    name: 'chocolate',
-    precio: 5
-  },
-  {
-    name: 'Caramelo',
-    precio: 1
-  },
-  {
-    name: 'soda',
-    precio: 34
-  },
-  {
-    name: 'revista',
-    precio: 29
-  }
+const productos = [{
+        name: 'leche',
+        precio: 23
+    },
+    {
+        name: 'chocolate',
+        precio: 5
+    },
+    {
+        name: 'Caramelo',
+        precio: 1
+    },
+    {
+        name: 'soda',
+        precio: 34
+    },
+    {
+        name: 'revista',
+        precio: 29
+    }
 ];
 
 let total = 0;
@@ -51,19 +50,15 @@ const producto = productos.find(producto => producto.name === 'revista');
 console.log('producto encontrado:', producto);
 
 
-
-// agregar un nuevo producto llamado libro en una sola linea.
-const producto = { name: 'libro', precio: 32 };
-productos.push(producto);
-
 // Encontra el index del producto libro en el arreglo productos.
 const index = productos.findIndex(producto => producto.name === 'libro');
 console.log(index);
+// agregar un nuevo producto llamado libro en una sola linea.
+const agregar = productos.push(producto => producto.name = 'libro');
+console.log(agregar);
 
-console.log(productos);
 if (index < 0) {
-  console.log('No encontrado')
+    console.log('No encontrado')
 } else {
-  console.log(`El producto esta en la posicion ${index}`);
-}
-
+    console.log(`El producto esta en la posicion ${index}`);
+} */

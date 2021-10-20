@@ -1,5 +1,4 @@
-
-const Colegio = require('./src/colegio');
+/* const Colegio = require('./src/colegio');
 const Curso = require('./src/curso');
 const Profesor = require('./src/profesor');
 const Materia = require('./src/materia');
@@ -31,4 +30,4 @@ console.log(colegio.nombre);
 console.log(colegio.cursos);
 console.log(colegio.profesores[0]);
 
-console.log(colegio.cursos[0]);
+console.log(colegio.cursos[0]); */
