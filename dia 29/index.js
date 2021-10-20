@@ -79,3 +79,14 @@ console.log(a);
 
 
 // crear un array de numeros y concatenarlos todos los elemntos del array como cadena
+
+const numeros = [234, 5, 6, 56, 78];
+const newfn = (prev, next) => `${prev}${next}`;
+const concatenado1 = numeros.reduce(newfn);
+console.log(concatenado1);
+const concat = numeros.join('');
+console.log(concat);
+
+
+// Crear un array de objectos donde el objeto pelicula tenga losa atributos de nombre, año, genero y quiero 
+// filtrar por año por genero por separado y que me generes apartir del array un array que solo contenga el nombre,
