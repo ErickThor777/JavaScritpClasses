@@ -19,6 +19,7 @@ const unired = palabras.reduce((valorini, valornext) => valorini + ' ' + valorne
 console.log(unired);
 
 
+
 // quiero que este array se covierta en un array de numeros basado en el tamaño de cada palabra
 const tama = palabras.map((valor) => valor.length);
 console.log(tama);
