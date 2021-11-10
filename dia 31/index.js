@@ -9,4 +9,4 @@ const palabras = ['hola', 'no', 'reto', 'salida', 'victoria'];
 
 
 
-// quiero que este array se covierta en un array de numeros basado en el tamaño de cada palabra
+// quiero que este array se covierta en un array de numeros basado en el tamaño de cada palabra 
