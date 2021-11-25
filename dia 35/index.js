@@ -17,3 +17,5 @@
 
 // filtrar los numeros igual a 4 y luego sumarlos +2  a cada uno
 let numeros = [4, 3, 2, 4, 2];
+let filtrar = numeros.filter((valor) => valor === 4).map((valor) => valor + 2);
+console.log(filtrar);
