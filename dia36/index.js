@@ -1,0 +1,1 @@
+// crear una clase que tenga los atributos nombre y apellido y que tenga metodos que me devileva el nombre completo t pueda cambiar su nombre o apellido
